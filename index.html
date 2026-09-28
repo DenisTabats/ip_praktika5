@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=ytader, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo"><i class="fa-solid fa-hippo fa-xl fa-fade"></i></div>
+            <div class="navigation">
+                <a href="#">Главная</a>
+                <a href="#Portfolio">Портфолио</a>
+                <a href="#Contact">Контакты</a>
+            </div>
+        </nav>
+        <div class="container">
+
+            <div class="header-row">
+            <img src="img/photo.jpg" srcset="img/photo@2x.jpg" alt="" class="header-img">
+            <div class="header-desc">
+                <h1>Денис Табацкий</h1>
+                <p class="header-text">фрилансер, веб-разработчик,<br> создание сайтов</p>
+                <div class="header-btns">
+                    <button class="btn">Портфолио</button>
+                     <button class="btn-outline">Контакты</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="Portfolio" class="portfolio">
+            <div class="container">
+                <h2 class="portfolio__title">Портфолио</h2>
+                <div class="portfolio__grid">
+                    <figure class="portfolio__card">
+                        <img src="img/project-01.jpg" srcset="img/project-01@2x.jpg" alt="Интерьер мебели" class="portfolio__img">
+                        <figcaption class="portfolio__caption">Сайт магазина мебели</figcaption>
+                    </figure>
+                    <figure class="portfolio__card">
+                        <img src="img/project-02.jpg" srcset="img/project-02@2x.jpg" alt="Туристическое агентство" class="portfolio__img">
+                        <figcaption class="portfolio__caption">Сайт туристического агентства</figcaption>
+                    </figure>
+                    <figure class="portfolio__card">
+                        <img src="img/project-03.jpg" srcset="img/project-03@2x.jpg" alt="Жилой комплекс" class="portfolio__img">
+                        <figcaption class="portfolio__caption">Сайт жилого комплекса</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="Contact" class="contacts">
+            <div class="container">
+                <h2 class="contacts__title">Контакты</h2>
+                <div class="contacts__list">
+                    <a href="#" class="contacts__link">
+                        <i class="fa-brands fa-telegram contacts__icon contacts__icon--tg"></i>
+                        <span class="contacts__text">Написать в Telegram</span>
+                    </a>
+                    <a href="#" class="contacts__link">
+                        <i class="fa-solid fa-comment-dots contacts__icon contacts__icon--max"></i>
+                        <span class="contacts__text">Отправить в Max</span>
+                    </a>
+                    <a href="#" class="contacts__link">
+                        <i class="fa-brands fa-vk contacts__icon contacts__icon--vk"></i>
+                        <span class="contacts__text">Связаться Вконтакте</span>
+                    </a>
+                </div>
+                
+                <div class="contacts__footer">
+                    <p class="contacts__copy">© Денис Табацкий</p>
+                    <p class="contacts__desc">HTML верстка, создание сайтов</p>
+                    <p class="contacts__city">ДОНЕЦК</p>
+                    <p class="contacts__note"><i class="fa-solid fa-laptop-code"></i> Макет сверстан нативно</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
